@@ -1,7 +1,5 @@
 const text = Deno.readTextFileSync("./day-02/input.txt");
-
 const rows = text.split('\n')
-
 
 const parseRow = (row: string) => {
   const [range, target, password] = row.split(' ')

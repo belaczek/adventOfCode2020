@@ -5,11 +5,9 @@ type SlopeRow = ('.' | '#')[]
 const slopeMap = input.split('\n').map(row => [...row]) as SlopeRow[]
 const rowLengts = slopeMap[0].length
 
-
 const getCharAtPosition = (row: SlopeRow, pointer: number) => {
   return row[pointer % rowLengts]
 }
-
 
 const calculateTrees = (slope: [number, number]) => {
   let treesCount = 0
@@ -31,7 +29,6 @@ const calculateTrees = (slope: [number, number]) => {
 }
 
 const slopeDirections: [number, number][] = [[1, 1], [3, 1], [5, 1], [7, 1], [1, 2]]
-
 const result = slopeDirections.map(calculateTrees).reduce((acc, count) => { return acc * count }, 1)
 
 console.log(result)

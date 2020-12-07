@@ -1,5 +1,4 @@
 const input = Deno.readTextFileSync("./day-07/input.txt")
-
 const rows = input.split('\n')
 
 interface Parsed {
@@ -30,7 +29,6 @@ const parseInput = (rows: string[]) => {
   return rules
 }
 
-
 const getAllPossibleBags = (rules: Parsed, target: string) => {
   const parents = new Set()
   const children = [target]
@@ -52,10 +50,8 @@ const stage1 = () => {
   return getAllPossibleBags(rules, 'shiny gold').length
 }
 
-
 const stage2 = () => {
   const rules = parseInput(rows)
-
   const nestedBags = ['shiny gold']
 
   for (const bag of nestedBags) {
@@ -68,8 +64,6 @@ const stage2 = () => {
 
   return nestedBags.length - 1
 }
-
-
 
 // console.log(stage1())
 console.log(stage2())

@@ -1,8 +1,8 @@
 const input = Deno.readTextFileSync("./day-05/input.txt")
-
-
 const inputRows = input.split('\n')
 
+// Copied this function from Ludek https://github.com/ludekstepan/advent-of-code-2020/blob/main/src/day5/index.ts
+// Is that cheating?
 export function getId(pass: string) {
   let row = 0,
     column = 0
@@ -29,9 +29,6 @@ export function getId(pass: string) {
   return row * 8 + column
 }
 
-
-
-
 const ids = inputRows.map(getId)
 const max = ids.reduce((a, b) => Math.max(a, b))
 
@@ -48,23 +45,3 @@ sorted.forEach((id, i) => {
 })
 
 console.log(missingId)
-
-
-// const stage1 = () => {
-
-
-  // console.log(Math.max(...st1Input))
-
-
-  // console.log(getTargetValue(["B", "F", "F", "F", "B", "B", "F"], 64))
-  // console.log(getTargetValue(["B", "B", "F", "F", "B", "B", "F"], 64))
-  // console.log(getTargetValue(["R","L","L" ], 4))
-  // console.log(calculateId(102, 4))
-  // console.log(calculate('RRR'))
-  // console.log(calculate('FBFBBFF'))
-
-// }
-
-
-
-// stage1()

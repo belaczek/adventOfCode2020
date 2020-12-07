@@ -1,5 +1,4 @@
 const input = Deno.readTextFileSync("./day-06/input.txt")
-
 const groups = input.split('\n\n')
 
 const getSum = (input: string) => {
@@ -10,7 +9,6 @@ const getSum = (input: string) => {
 
   return yesAnswers.size
 }
-
 
 const intersection = (a: string[], b: string[]) => a.filter(c => b.includes(c))
 

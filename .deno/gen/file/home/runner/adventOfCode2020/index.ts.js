@@ -5,5 +5,7 @@
 // import './day-05/index.ts'
 // import './day-06/index.ts'
 // import './day-07/index.ts'
-import './day-08/index.ts';
+// import './day-08/index.ts'
+// import './day-09/index.ts'
+import './day-10/index.ts';
 //# sourceMappingURL=file:///home/runner/adventOfCode2020/.deno/gen/file/home/runner/adventOfCode2020/index.ts.js.map

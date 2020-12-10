@@ -26,7 +26,9 @@ const stage1 = () => {
 
 
 const getVariations = (v: number) => {
-  return Array.from({ length: v - 1 }, (v, i) => i).reduce((acc, n) => acc + n, 1)
+  return new Array(v - 1)
+    .fill(0)
+    .reduce((acc, n, i) => acc + i, 1)
 }
 
 const stage2 = () => {
@@ -35,7 +37,7 @@ const stage2 = () => {
   const input = [0, ...rows, builtInJolts].sort((a, b) => a - b)
 
   const combinations: number[] = [];
-  
+
   for (let i = 0; i < input.length - 1; i++) {
     if (input[i + 1] - input[i] === 1) {
       const start = i;

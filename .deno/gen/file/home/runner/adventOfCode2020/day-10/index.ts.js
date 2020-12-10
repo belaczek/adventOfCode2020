@@ -19,7 +19,9 @@ const stage1 = () => {
     return [jolt1 * jolt3];
 };
 const getVariations = (v) => {
-    return Array.from({ length: v - 1 }, (v, i) => i).reduce((acc, n) => acc + n, 1);
+    return new Array(v - 1)
+        .fill(0)
+        .reduce((acc, n, i) => acc + i, 1);
 };
 const stage2 = () => {
     const builtInJolts = Math.max(...rows) + 3;

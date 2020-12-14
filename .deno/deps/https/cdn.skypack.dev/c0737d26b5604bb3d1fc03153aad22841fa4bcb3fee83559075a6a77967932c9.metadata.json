@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "server": "cloudflare",
+    "access-control-allow-origin": "*",
+    "x-import-url": "/-/lodash.isequal@v4.5.0-vKkeutzMWZAjH2wLLaXX/dist=es2020/lodash.isequal.js",
+    "nel": "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=WUX81ZavwF4oK7VgCfDJHhjqvTxyNEwQGucR%2FsM2MCmMEX7Ndlnlx%2Fw%2FUfoVDTRxY35bTkn4i%2BoVxPfgRJ7Ypk%2BXasE8EQJ%2BeL%2Fu8ppIcVM%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "age": "0",
+    "cf-ray": "5ffdf3650b2b0599-LAX",
+    "cf-request-id": "06f296732100000599ab815000000001",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "x-vercel-cache": "MISS",
+    "set-cookie": "__cfduid=dffe75174e7a9bd0a126d1df2634085c61607676549; expires=Sun, 10-Jan-21 08:49:09 GMT; path=/; domain=.skypack.dev; HttpOnly; SameSite=Lax",
+    "x-pinned-url": "/pin/lodash.isequal@v4.5.0-vKkeutzMWZAjH2wLLaXX/lodash.isequal.js",
+    "etag": "W/\"2f3-+y+kQaDOZNIOVC1X3OM+WXv66ys\"",
+    "x-import-status": "SUCCESS",
+    "date": "Fri, 11 Dec 2020 08:49:10 GMT",
+    "content-type": "application/javascript; charset=utf-8",
+    "x-vercel-id": "sfo1::sfo1::n8lfj-1607676549937-11bfa366f7f6",
+    "cache-control": "private, max-age=300",
+    "strict-transport-security": "max-age=63072000",
+    "cf-cache-status": "DYNAMIC"
+  },
+  "url": "https://cdn.skypack.dev/lodash.isequal"
+}

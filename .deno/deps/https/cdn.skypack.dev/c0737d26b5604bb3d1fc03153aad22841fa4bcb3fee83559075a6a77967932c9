@@ -1,0 +1,16 @@
+/*
+ * Skypack CDN - lodash.isequal@4.5.0
+ *
+ * Learn more:
+ *   📙 Package Documentation: https://www.skypack.dev/view/lodash.isequal
+ *   📘 Skypack Documentation: https://www.skypack.dev/docs
+ *
+ * Pinned URL: (Optimized for Production)
+ *   ▶️ Normal: https://cdn.skypack.dev/pin/lodash.isequal@v4.5.0-vKkeutzMWZAjH2wLLaXX/lodash.isequal.js
+ *   ⏩ Minified: https://cdn.skypack.dev/pin/lodash.isequal@v4.5.0-vKkeutzMWZAjH2wLLaXX/min/lodash.isequal.js
+ *
+ */
+
+// Browser-Optimized Imports (Don't directly import the URLs below in your application!)
+export * from '/-/lodash.isequal@v4.5.0-vKkeutzMWZAjH2wLLaXX/dist=es2020/lodash.isequal.js';
+export {default} from '/-/lodash.isequal@v4.5.0-vKkeutzMWZAjH2wLLaXX/dist=es2020/lodash.isequal.js';

@@ -11,5 +11,7 @@
 // import './day-11/index.ts'
 // import './day-12/index.ts'
 // import './day-13/index.ts'
-import './day-14/index.ts';
+// import './day-14/index.ts'
+// import './day-15/index.ts'
+import './day-16/index.ts';
 //# sourceMappingURL=file:///home/runner/adventOfCode2020/.deno/gen/file/home/runner/adventOfCode2020/index.ts.js.map

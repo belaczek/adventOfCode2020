@@ -85,7 +85,7 @@ const crt = (congruences: [bigint, bigint][]) => {
   );
 };
 
-/** Stage 2 is not my own solution  */
+/** Stage 2 is not my own solution, copied from https://github.com/caderek/aoc2020/tree/main/src/day13  */
 const stage2 = () => {
    const buses = timetable
     .split(",")

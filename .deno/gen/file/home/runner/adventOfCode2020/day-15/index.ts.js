@@ -28,15 +28,9 @@ const stage2 = (input, repeatTimes) => {
     spoken.delete(prev);
     for (let i = input.length - 1; i < (repeatTimes - 1); i++) {
         const lastIndex = spoken.get(prev);
-        // console.log('round ', i + 1)
-        // console.log('last value is ', prev)
         let newVal = 0;
         if (lastIndex !== undefined) {
             newVal = i - lastIndex;
-            // console.log('the value was alredy there at ' + lastIndex + ' setting new value ' + newVal)
-        }
-        else {
-            // console.log('the value was not there before, setting 0')
         }
         spoken.set(prev, i);
         prev = newVal;

@@ -41,7 +41,6 @@ const stage2 = (input: number[], repeatTimes: number) => {
 
     if (lastIndex !== undefined) {
       newVal = i - lastIndex
-    } else {
     }
 
     spoken.set(prev, i)
